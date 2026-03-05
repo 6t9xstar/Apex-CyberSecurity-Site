@@ -1,65 +1,59 @@
-You are a senior full-stack developer and UI/UX designer specializing in
-CyberSecurity brand websites.
+# Apex CyberSecurity – Personal Website Source Code
 
-Create a FULLY PROFESSIONAL, HIGH-END CyberSecurity Website using
-modern React (Next.js preferred).
+This repository contains the **source code of my personal website: Apex CyberSecurity**.
 
-Brand Identity:
-CyberSecurity Expert: Malik Taimoor Awan
-Instagram: @yours._malik
-Whop Account: @6ti
-Contact Number: +92 344 0455505
+I decided to make the project **open source** so anyone can explore the code, learn from it, or use it as a base for their own cybersecurity or personal portfolio website.
 
-Core Requirements:
-- Enterprise-level clean and secure code
-- Performance-optimized, scalable architecture
-- Security-focused mindset (safe patterns, no vulnerabilities)
-- Modern, professional CyberSecurity aesthetic
-- Dark theme preferred with neon / cyber accents
+If you like the design or functionality, feel free to **use, modify, and improve it** for your own projects.
 
-Tech Stack:
-- React / Next.js
-- Tailwind CSS (or styled-components)
-- Framer Motion for animations
-- Modular reusable components
-- SEO optimized structure
+## Features
 
-UI / UX Requirements:
-- High-end UI design (premium look)
-- Smooth, professional animations (not flashy)
-- Strong UX hierarchy and spacing
-- Fully responsive (mobile, tablet, desktop)
-- Accessibility friendly
+* Clean cybersecurity themed design
+* Responsive layout
+* Fast loading pages
+* Simple and easy to customize
+* Beginner‑friendly structure
+* Open source
 
-Text & Animation Requirements:
-- Implement text animations inspired by:
-  https://reactbits.dev/text-animations/split-text
-- Use unique split-text, reveal, and motion animations
-- Custom animation logic (not copy-paste)
+## Usage
 
-Design Elements:
-- Unique animated backgrounds (particles, gradients, grid lines)
-- CyberSecurity visuals (abstract, code, encryption, digital shields)
-- Interactive hover effects
-- Smooth page transitions
+You are free to:
 
-Website Sections:
-- Hero Section (animated cybersecurity headline)
-- About the Expert
-- Services / Expertise
-- CyberSecurity Skills & Tools
-- Why Choose Me
-- Contact Section (secure & clean)
-- Footer with social links
+* Use the source code
+* Modify the design
+* Learn from the structure
+* Build your own website from it
 
-Deliverables:
-- Clean, well-commented production-ready code
-- Component-based structure
-- Animation logic explained briefly
-- No placeholders or generic boilerplate
-- Output real working code
+If you use this project, giving **credit is appreciated but not required.**
 
-Tone:
-- Professional
-- Elite
-- CyberSecurity authority
+## Contributing
+
+If you have ideas to improve the site, feel free to:
+
+* Fork the repository
+* Make improvements
+* Submit a pull request
+
+## License
+
+This project is released as **open source**.
+Use it freely for personal or educational purposes.
+
+## Author
+
+Apex CyberSecurity LLC
+
+---
+
+## Tags
+
+#cybersecurity
+#opensource
+#personalwebsite
+#webdevelopment
+#portfolio
+#security
+#githubproject
+#coding
+#developers
+#apexcybersecurity

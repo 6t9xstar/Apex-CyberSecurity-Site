@@ -1,0 +1,46 @@
+How to run the CyberSecurity site
+
+Prerequisites
+- Node.js 18+ and npm
+
+Important for Windows users
+- Ensure the project folder path does NOT contain an exclamation mark (!) anywhere. Webpack treats it as loader syntax and the dev server won’t start.
+  Example: Rename "CyberSecurity Website!" to "CyberSecurity-Website".
+
+Install and run (recommended)
+1) Install dependencies
+   npm install
+
+2) Start the dev server (bind to IPv4)
+   npx next dev -H 127.0.0.1 -p 3000
+
+3) Open the site
+   http://127.0.0.1:3000
+
+If port 3000 is busy
+   npx next dev -H 127.0.0.1 -p 3001
+   Open http://127.0.0.1:3001
+
+Clean and retry (if you hit cache issues)
+   - Delete the build cache and lockfiles, reinstall, and run again:
+     rmdir /s /q .next  (Windows)
+     rmdir /s /q node_modules  (Windows)
+     del package-lock.json  (Windows)
+     npm install
+     npx next dev -H 127.0.0.1 -p 3000
+
+     # macOS/Linux
+     rm -rf .next node_modules package-lock.json
+     npm install
+     npx next dev -H 127.0.0.1 -p 3000
+
+Production build
+   npm run build
+   npm start -p 3000
+   Open http://127.0.0.1:3000
+
+
+Notes
+- This project uses Next.js App Router, Tailwind CSS, Framer Motion, and next/font (Inter).
+- If the terminal prints that @types/node was installed, run the dev command again.
+- If a corporate firewall or security suite blocks localhost, try another port (e.g., 5173) or run via Docker.
